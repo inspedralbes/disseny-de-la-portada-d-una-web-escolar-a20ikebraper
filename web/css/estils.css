@@ -9,7 +9,6 @@
     margin: 0 auto;
     min-width: 1000px;
     max-width: 1400px;
-    line-height: 30px;
     letter-spacing: 1px;
     word-spacing: 2px;
   }
@@ -19,6 +18,7 @@
   section {
     float: left;
     width: 50%;
+    line-height: 30px;
   }
   
   h2 + p{
@@ -28,11 +28,30 @@
   aside {
     float: left;
     width: 30%;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
   }
   
   nav {
     float: left;
     width: 20%;
+    line-height: 400%;
+  }
+
+  aside ul li {
+    list-style-type: square;
+  }
+
+  nav ul li {
+    text-align: center;
+    list-style-type: none;
+    border-radius: 0%;
+    width: 150px;
+    height: 50px;
+    margin-top: 4px;
+    background: #fff;
+    outline: 1px solid #05ADEC;
   }
   
   footer {
@@ -70,7 +89,8 @@
   
   /* mouse over link */
   a:hover {
-    color: #048EC4;
+    color: #0479a6;
+    text-decoration: none;
   }
 
   /* tab */
@@ -78,6 +98,7 @@
     outline: none;
     background-color: #e0f6ff;
     color: #0479a6;
+    text-decoration: none;
   }
 
    /* selected link */
