@@ -105,3 +105,16 @@
    a:active {
     color: #FF9C31;
   }
+
+  div{
+    padding: 10px;
+    background-color: #e0f6ff;
+  }
+
+  .grid-container {
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-template-columns: 2fr 3fr;
+    background-color: #F75040;
+  }
